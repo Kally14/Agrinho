@@ -1,2 +1,2 @@
 # Projeto Agrnho
-Este é meu pprojeto para Agrinho
+Este é meu projeto para Agrinho
