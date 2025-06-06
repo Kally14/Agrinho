@@ -1,0 +1,90 @@
+/* Reset básico */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #eef6f9;
+  color: #1c2e3a;
+  line-height: 1.7;
+  padding: 20px;
+}
+
+/* Título principal */
+h1 {
+  text-align: center;
+  font-size: 2.5rem;
+  margin-bottom: 40px;
+  color: #0c3b5f;
+}
+
+/* Títulos das seções */
+h2 {
+  color: #144866;
+  font-size: 1.8rem;
+  margin-bottom: 15px;
+}
+
+/* Estilo das seções */
+.section {
+  background-color: #ffffff;
+  padding: 30px;
+  margin-bottom: 30px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  transition: transform 0.2s;
+}
+
+.section:hover {
+  transform: scale(1.01);
+}
+
+/* Espaços para imagem */
+.image-placeholder {
+  background-color: #cde4f2;
+  border: 2px dashed #99bcd6;
+  color: #2e5f7b;
+  padding: 60px;
+  margin: 20px 0;
+  text-align: center;
+  border-radius: 10px;
+  font-style: italic;
+  font-size: 1rem;
+}
+
+/* Listas explicativas */
+ul {
+  margin-left: 20px;
+  list-style-type: disc;
+}
+
+ul li {
+  margin-bottom: 10px;
+}
+
+/* Responsivo */
+@media (max-width: 768px) {
+  body {
+    padding: 15px;
+  }
+
+  .section {
+    padding: 20px;
+  }
+
+  h1 {
+    font-size: 2rem;
+  }
+
+  h2 {
+    font-size: 1.4rem;
+  }
+
+  .image-placeholder {
+    padding: 40px;
+    font-size: 0.95rem;
+  }
+}
