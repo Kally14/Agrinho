@@ -87,4 +87,9 @@ ul li {
     padding: 40px;
     font-size: 0.95rem;
   }
+  .imagem-esticada{
+    width: 70%;
+    height: 100vh;
+    object-file: fill;
+  }
 }
