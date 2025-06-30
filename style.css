@@ -65,6 +65,25 @@ ul li {
   margin-bottom: 10px;
 }
 
+/* Estilizando imagens */
+.section img {
+  width: 100%;  /* Imagem ocupará 100% da largura disponível */
+  height: auto; /* Mantém a proporção da imagem */
+  border-radius: 8px;
+  margin-top: 20px;
+  margin-bottom: 20px; /* Espaço abaixo da imagem */
+}
+
+/* Imagem com classe específica para controle */
+.imagem-esticada {
+  width: 100%; /* Imagem vai preencher a largura disponível */
+  height: 300px; /* Altura fixa */
+  object-fit: cover; /* As imagens preencherão o contêiner sem distorção */
+  border-radius: 8px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
 /* Responsivo */
 @media (max-width: 768px) {
   body {
@@ -87,9 +106,16 @@ ul li {
     padding: 40px;
     font-size: 0.95rem;
   }
-  .imagem-esticada{
-    width: 70%;
-    height: 100vh;
-    object-file: fill;
+
+  /* Imagens responsivas */
+  .section img {
+    width: 100%; /* Imagem ocupa toda a largura */
+    height: auto; /* Mantém a proporção */
+  }
+
+  /* Ajustando a imagem esticada para telas menores */
+  .imagem-esticada {
+    height: 200px; /* Diminui a altura em telas menores */
+    object-fit: cover; /* Garante que a imagem preencha sem distorção */
   }
 }
