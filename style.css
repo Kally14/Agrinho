@@ -74,14 +74,10 @@ ul li {
   margin-bottom: 20px; /* Espaço abaixo da imagem */
 }
 
-/* Imagem com classe específica para controle */
-.imagem-esticada {
-  width: 100%; /* Imagem vai preencher a largura disponível */
-  height: 300px; /* Altura fixa */
-  object-fit: cover; /* As imagens preencherão o contêiner sem distorção */
-  border-radius: 8px;
-  margin-top: 20px;
-  margin-bottom: 20px;
+@media (max-width: 768px) {
+  .imagem-esticada {
+    max-height: 200px;
+  }
 }
 
 /* Responsivo */
